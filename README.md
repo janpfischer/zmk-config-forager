@@ -1,5 +1,5 @@
 # Forager ZMK Config
 
-Firmware for [forager keyboard](https://github.com/carrefinho/forager) (using official ZMK config with dongle)
+Firmware for [Forager](https://github.com/carrefinho/forager) keyboard (using official ZMK config with dongle).
 
-Currently with [Prospector Dongle](https://github.com/carrefinho/prospector)
+Currently with [Prospector](https://github.com/carrefinho/prospector) dongle.
