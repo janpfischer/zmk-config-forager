@@ -4,7 +4,7 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    # Forager Keyboard
+    # Forager Keyboard + Prospector
     - name: carrefinho
       url-base: https://github.com/carrefinho
     # RGB Led
@@ -18,6 +18,9 @@ manifest:
       remote: zmkfirmware
       import: app/west.yml
     - name: forager-zmk-module-dongle
+      remote: carrefinho
+      revision: main
+    - name: prospector-zmk-module
       remote: carrefinho
       revision: main
     - name: zmk-rgbled-widget
