@@ -14,8 +14,8 @@ manifest:
     - name: dhruvinsh
       url-base: https://github.com/dhruvinsh
     # ZMK Dongle Screen
-    - name: janpfischer
-      url-base: https://github.com/janpfischer
+    # - name: janpfischer
+    #   url-base: https://github.com/janpfischer
   projects:
     - name: zmk
       remote: zmkfirmware
@@ -32,8 +32,8 @@ manifest:
     - name: zmk-tri-state
       remote: dhruvinsh
       revision: main
-    - name: zmk-dongle-screen
-      remote: janpfischer
-      revision: main
+    # - name: zmk-dongle-screen
+    #   remote: janpfischer
+    #   revision: main
   self:
     path: config

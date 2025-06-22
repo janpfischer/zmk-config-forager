@@ -20,19 +20,15 @@
 ---
 include:
   - board: seeeduino_xiao_ble
-    # shield: forager_dongle prospector_adapter
-    shield: forager_dongle dongle_screen
-    cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=y -DCONFIG_LOG_PROCESS_THREAD_STARTUP_DELAY_MS=8000 #optional if logging is enabled
-    #snippet: zmk-usb-logging #only enable for debugging
+    shield: forager_dongle prospector_adapter
+    #shield: forager_dongle dongle_screen
     snippet: studio-rpc-usb-uart
     artifact-name: forager_dongle
   - board: seeeduino_xiao_ble
     shield: forager_left rgbled_adapter
-    cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
     artifact-name: forager_left
   - board: seeeduino_xiao_ble
     shield: forager_right rgbled_adapter
-    cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
     artifact-name: forager_right
   - board: seeeduino_xiao_ble
     shield: settings_reset
