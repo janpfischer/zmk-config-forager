@@ -32,4 +32,4 @@ include:
     artifact-name: forager_right
   - board: seeeduino_xiao_ble
     shield: settings_reset
-    artifact-name: forager_reset
+    artifact-name: xiao_ble_settings_reset
