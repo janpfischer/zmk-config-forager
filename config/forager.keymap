@@ -210,6 +210,18 @@
             key-positions = <5 6>;
             layers = <10>;
         };
+
+        combo_dongle_bootloader {
+            bindings = <&bootloader>;
+            key-positions = <20 21>;
+            layers = <10>;
+        };
+
+        combo_dongle_reset {
+            bindings = <&sys_reset>;
+            key-positions = <29 28>;
+            layers = <10>;
+        };
     };
 
     keymap {
