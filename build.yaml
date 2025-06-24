@@ -20,17 +20,19 @@
 ---
 include:
   - board: seeeduino_xiao_ble
-    shield: forager_dongle prospector_adapter
-    #shield: forager_dongle dongle_screen
+    #shield: forager_dongle prospector_adapter
+    shield: forager_dongle dongle_screen
     #cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=y
     snippet: studio-rpc-usb-uart
     artifact-name: forager_dongle
   - board: seeeduino_xiao_ble
     shield: forager_left rgbled_adapter
     artifact-name: forager_left
+    cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
   - board: seeeduino_xiao_ble
     shield: forager_right rgbled_adapter
     artifact-name: forager_right
+    cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
   - board: seeeduino_xiao_ble
     shield: settings_reset
     artifact-name: xiao_ble_settings_reset
